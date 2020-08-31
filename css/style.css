@@ -1,0 +1,109 @@
+body{
+    background: #ececec;
+}
+#header{
+    width: 100%;
+    height:100px;
+    background-color:rgb(231, 66, 5);
+    color: white;
+    padding-top: 30px;
+    
+}
+#icon{
+    font-size: 40px; 
+    cursor: pointer; 
+    margin-left: 60px;
+}
+.title{
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+#page_image{
+    /* background-image: url('../img/banner.jpg'); */
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/banner.jpg);
+}
+#grids{
+    margin-top: 50px;
+   margin-bottom: 300px;
+   height: 300px;
+   display:grid;
+   width: 100%;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 30px; 
+}
+#grids > div{
+    background-color: white;
+}
+#offer{
+    margin-top: 40px;
+}
+.tabs{
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+    padding-top: 20px;
+}
+.tab-img{
+    width: 200px;
+    margin-top: 10px;
+}
+li{
+    list-style: none;
+    display: none;
+}
+#list:hover li{
+    display: block;
+    background-color:#ceccec;
+    color: red;
+}
+#list1:hover li{
+    display: block;
+    background-color:#ceccec;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================MEDIA QUERY========================================*/
+@media screen and (max-width:520px){
+    .tab-img{
+        width: 190px;
+    }
+    #page_image{
+        background-size: cover;
+    }
+    .title{
+        font-size: 15px;
+    }
+    #icon{
+        margin-left: 20px;
+    }
+    
+    #grids{
+
+        display: block;
+    }
+}
