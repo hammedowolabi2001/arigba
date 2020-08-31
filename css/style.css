@@ -106,4 +106,7 @@ li{
 
         display: block;
     }
+    #foot{
+        margin-top: 200px;
+    }
 }
